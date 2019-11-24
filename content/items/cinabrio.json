@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Cinábrio",
+	"description": "A red metal torn from the depths.",
+	"hardness": 4,
+	"color": "FFFF00"
+}

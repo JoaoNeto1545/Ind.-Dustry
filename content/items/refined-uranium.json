@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Refined Uranium",
+	"description": "A highly radioactive isotope.",
+	"cost": 2.5,
+	"color": "FFFF00"
+}

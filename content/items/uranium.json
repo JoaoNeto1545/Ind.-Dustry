@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Uranium",
+	"description": "A Highly Radioactive Miner.",
+	"hardness": 5,
+	"cost": 5.0,
+	"color": "006400"
+}

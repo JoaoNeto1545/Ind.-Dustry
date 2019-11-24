@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Sapphire",
+	"description": "A blue gemstone.",
+	"hardness": 4,
+	"cost": 4.0,
+	"color": "0000FF"
+}

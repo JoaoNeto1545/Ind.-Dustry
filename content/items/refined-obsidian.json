@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Refined Obsidian",
+	"description": "A beautiful stone.",
+	"hardness": 4,
+	"cost": 4.0,
+	"color": "C71585"
+}
