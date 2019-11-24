@@ -1,0 +1,27 @@
+{
+	"name": "Teste",
+	"description": "dps.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 10},
+    	{"item": "lead", "amount": 10}
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero", 
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "junction"
+    	}
+    ],
+    "resources": ["copper", "silver", "lead", "coal", "sand"]
+}

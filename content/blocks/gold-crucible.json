@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Gold Crucible (WIP)",
+	"description": "Turn gold bars into molten gold.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "molten-gold", "amount": 7.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"item": "gold-ingot"
+	},
+	"requirements": [
+		{ "item": "silver", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "silicon", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "gold-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

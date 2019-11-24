@@ -1,0 +1,23 @@
+{
+	"name": "Gold Drill",
+	"description": "A drill specifically for gold mining.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 7,
+	"drillTime": 250,
+	"consumes": {
+		"power": 3.0,
+		"liquid": {
+			"liquid": "molten-mercurio", 
+			"amount": 0.1,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "silver", "amount": 80 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "graphite", "amount": 20 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

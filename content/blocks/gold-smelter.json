@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Gold Smelter",
+	"description": "Turn gold dust into bars.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "gold-ingot", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "gold-powder", "amount": 4 }
+			]
+		},
+
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 50 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "silver", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "cinabrio-purificator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

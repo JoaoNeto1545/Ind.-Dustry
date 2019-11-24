@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Molecular Transformer",
+	"description": "Turn Uranium into Plutonium with this machine.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "plutonium", "amount": 2,},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "uranium", "amount": 5 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "tin-ingot", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "uranium", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

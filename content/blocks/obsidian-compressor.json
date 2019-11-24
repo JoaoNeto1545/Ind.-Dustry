@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Obsidian Compressor",
+	"description": "Obsidian Transform to Refined Obsidian.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "refined-obsidian", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "obsidian", "amount": 2 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "gold-ingot", "amount": 50 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "obsidian", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "gold-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

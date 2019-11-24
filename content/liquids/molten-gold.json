@@ -1,0 +1,8 @@
+{
+	"name": "Molten Gold",
+	"description": "A bright yellow liquid.",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "FFFF00"
+}

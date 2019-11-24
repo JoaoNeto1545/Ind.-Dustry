@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Tin Crucible (WIP)",
+	"description": "Turn Tin Bar into Molten Tin.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "molten-tin", "amount": 7.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"item": "tin"
+	},
+	"requirements": [
+		{ "item": "silver", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "silicon", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "tin-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

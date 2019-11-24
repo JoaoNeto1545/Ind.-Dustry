@@ -1,0 +1,23 @@
+{
+	"name": "Electrum Drill",
+	"description": "A bit faster drill.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 4,
+	"drillTime": 250,
+	"consumes": {
+		"power": 3.0,
+		"liquid": {
+			"liquid": "molten-silver", 
+			"amount": 0.1,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 80 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "graphite", "amount": 20 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

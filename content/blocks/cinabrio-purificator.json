@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Cinábrio Purificator",
+	"description": "Turn Cinabrio into Mercury",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "molten-mercurio", "amount": 1.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"item": "cinabrio",
+
+		
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "silver", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "silver-crucible",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

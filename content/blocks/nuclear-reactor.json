@@ -1,0 +1,32 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Nuclear Reactor",
+	"description": "Generates a huge amount of energy.",
+	"liquidCapacity": 150,
+	"size": 5,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 60,
+	"powerProduction": 203,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "refined-uranium", "amount": 3 },
+
+			]
+			"optional": false
+			}
+			"liquid": {
+			"liquid": "cryofluid", 
+			"amount": 4.2,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "electrum", "amount": 50 }
+	],
+	"category": "power",
+	"research": "uranium-refinery"
+}

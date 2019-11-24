@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Gold conveyor",
+	"description": "A fast and bright conveyor.",
+	"requirements": [
+		{"item": "titanium", "amount": 3},
+		{"item": "gold-ingot", "amount": 3},
+		{"item": "lead", "amount": 3},
+	],
+	"category": "distribution",
+	"speed": 0.16,
+	"research": "electrum-conveyor"
+}

@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Uranium Refinery",
+	"description": "Refine uranium for use in reactor.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "refined-uranium", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "uranium", "amount": 1 }
+				{ "item": "plutonium", "amount": 3 }
+				{ "item": "thorium", "amount": 2 }
+				{ "item": "refined-obsidian", "amount": 4 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 50 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "silver", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "cinabrio-purificator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

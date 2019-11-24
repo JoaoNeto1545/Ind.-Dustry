@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Tin Smelter",
+	"description": "Turns tin ore into tin bar.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "tin-ingot", "amount": 1},
+	"size": 2,
+	"hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "tin", "amount": 3 }
+				{ "item": "coal", "amount": 2 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 50 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "silver", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "gold-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
