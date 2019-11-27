@@ -1,5 +1,5 @@
 {
-	"type": "SingleTypeGenerator",
+	"type": "NuclearReactor",
 	"name": "Nuclear Reactor",
 	"description": "Generates a huge amount of energy.",
 	"liquidCapacity": 150,
