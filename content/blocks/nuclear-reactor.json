@@ -3,11 +3,11 @@
 	"name": "Nuclear Reactor",
 	"description": "Generates a huge amount of energy.",
 	"liquidCapacity": 150,
-	"size": 5,
+	"size": 6,
 	"hasPower": true,
 	"hasItems": true,
 	"itemDuration": 60,
-	"powerProduction": 203,
+	"powerProduction": 240,
 	"consumes": {
 		"items": {
 			"items": [
